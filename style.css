@@ -315,6 +315,10 @@ footer .bottom .social-links img {
 
 /* Tab */
 @media (max-width: 768px) {
+  #navbarNav {
+    margin-top: 24px;
+  }
+
   .banner {
     flex-direction: column;
     gap: 30px;
