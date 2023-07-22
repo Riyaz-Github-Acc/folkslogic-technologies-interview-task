@@ -77,7 +77,7 @@
           processes, enhance performance, and mitigate risks. Let us help you
           stay ahead of the competition, contact us to learn more.
         </p>
-        <button>Learn More</button>
+        <button class="btn">Learn More</button>
       </div>
 
       <div class="banner-img">
@@ -137,28 +137,47 @@
 
       <form>
         <div class="form-field">
-          <label for="name">Your Name</label><br />
-          <input type="text" id="name" required />
+          <label for="name">Your Name <span>*</span></label
+          ><br />
+          <input type="text" id="name" placeholder="John Doe" required />
         </div>
 
         <div class="form-field">
-          <label for="email">Your Email</label><br />
-          <input type="email" id="email" required />
+          <label for="email">Your Email <span>*</span></label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="johndoe@gmail.com"
+            required
+          />
         </div>
 
         <div class="form-field">
-          <label for="phone">Phone</label><br />
-          <input type="tel" id="phone" required />
+          <label for="phone">Phone <span>*</span></label
+          ><br />
+          <input type="tel" id="phone" placeholder="+91 012345679" required />
         </div>
 
         <div class="form-field">
           <label for="website">Website</label><br />
-          <input type="text" id="website" />
+          <input type="text" id="website" placeholder="www.example.com" />
         </div>
 
         <div class="form-field">
-          <label for="message">Message</label><br />
-          <textarea id="message" cols="30" rows="5" required></textarea>
+          <label for="message">Message <span>*</span></label
+          ><br />
+          <textarea
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Let us know about your project"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="btn">Send</button>
         </div>
       </form>
     </section>
@@ -181,12 +200,12 @@
 
               <div class="info">
                 <img src="./assests/phone-alt.png" alt="" />
-                <p>+91 8296597700</p>
+                <a href="tel:8296597700">+91 8296597700</a>
               </div>
 
               <div class="info">
                 <img src="./assests/envelopes.png" alt="" />
-                <p>info@folkslogic.com</p>
+                <a href="mailto:info@folkslogic.com">info@folkslogic.com</a>
               </div>
             </div>
           </div>
